@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(Get-ChildItem -Path \"D:\\\\Games\\\\Unity Games\\\\GuideBall\" -Force)",
+      "Bash(Select-Object -Property Mode, Name)",
+      "Bash(Format-Table -AutoSize)"
+    ]
+  }
+}
