@@ -1,0 +1,6 @@
+{
+    "moveSpeed": 2.0,
+    "rotationSpeed": 180.0,
+    "boostMultiplier": 2.0,
+    "boostDuration": 3.0
+}
