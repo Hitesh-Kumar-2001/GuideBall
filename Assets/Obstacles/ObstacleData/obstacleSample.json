@@ -1,0 +1,17 @@
+{
+    "moveSpeed": 0.0,
+    "rotationSpeed": 60.0,
+    "boostMultiplier": 1.0,
+    "boostDuration": 0.0,
+    "loopPatterns": true,
+    "patterns": [
+        { "type": 2, "radius": 1.0, "amplitude": 2.0, "frequency": 0.5, "duration": 5.0 },
+        { "type": 1, "radius": 1.0, "amplitude": 2.0, "frequency": 0.8, "duration": 3.0 },
+        { "type": 2, "radius": 1.0, "amplitude": 2.0, "frequency": 0.8, "duration": 3.0 },
+        { "type": 3, "radius": 2.0, "amplitude": 2.5, "frequency": 0.5, "duration": 5.0 },
+        { "type": 0, "radius": 1.0, "amplitude": 1.0, "frequency": 1.0, "duration": 3.0 },
+        { "type": 1, "radius": 1.0, "amplitude": 3.5, "frequency": 0.4, "duration": 4.0 },
+        { "type": 2, "radius": 1.0, "amplitude": 3.5, "frequency": 0.4, "duration": 4.0 },
+        { "type": 3, "radius": 1.0, "amplitude": 3.0, "frequency": 0.9, "duration": 4.0 }
+    ]
+}
