@@ -4,9 +4,9 @@ public class BallController : EntityController
 {
     public bool IsDead { get; private set; }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.GetComponent<ObstacleController>() != null)
+        if (col.GetComponent<ObstacleController>() != null)
             Die();
     }
 

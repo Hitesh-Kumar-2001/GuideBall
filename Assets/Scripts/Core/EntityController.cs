@@ -21,8 +21,9 @@ public class EntityController : MonoBehaviour
         rb.freezeRotation = true;
         Direction = Vector2.right;
 
-        if (GetComponent<Collider2D>() == null)
-            gameObject.AddComponent<CircleCollider2D>();
+        var col = GetComponent<Collider2D>();
+        if (col == null) col = gameObject.AddComponent<CircleCollider2D>();
+        col.isTrigger = true;
     }
 
     public virtual void Initialize(EntityData data)
